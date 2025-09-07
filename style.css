@@ -1,0 +1,68 @@
+
+body{
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(0, 0, 0, 0.705);
+    
+}
+h1{
+    font-family:'JetBrains Mono', sans-serif;
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 0 16px 0;
+    text-align: justify;
+}
+.Perfil{
+    border-radius: 50%;
+    height: 170px;
+    display: block;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+ul{
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 40px;
+    text-align: left;
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+ul li{
+    margin-bottom: 8px; 
+}
+hr {
+    border: none;               
+    height: 2px;                
+    background-color: rgba(0,0,0,0.2); 
+    margin: 20px ;        
+}
+.material-symbols-outlined{
+    margin-left: 10px;
+}
+.rodape{
+    text-align: center;
+}
+a{
+    color: rgb(75, 75, 75);
+}
+a:hover{
+    color: #6b6b6b;
+}
